@@ -150,7 +150,7 @@ if __name__ == "__main__":
     train_data, valid_data, test_data = split_data(conll_data)
 
     # Output directory
-    output_dir = "version1"
+    output_dir = "./version1"
     os.makedirs(output_dir, exist_ok=True)
 
     # Save as CoNLL-style text files

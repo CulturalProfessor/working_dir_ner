@@ -36,9 +36,9 @@ class SROIE2019(datasets.GeneratorBasedBuilder):
     def __init__(self,
                  *args,
                 #  cache_dir,
-                 train_file="train.txt",
-                 val_file="valid.txt",
-                 test_file="test.txt",
+                 train_file="./version1/train.txt",
+                 val_file="./version1/valid.txt",
+                 test_file="./version1/test.txt",
                  ner_tags=(    "O", "B-INVOICE_NUMBER", "I-INVOICE_NUMBER",
     "B-INVOICE_DATE", "I-INVOICE_DATE", "B-DUE_DATE", "I-DUE_DATE",
     "B-CUSTOMER_PO", "I-CUSTOMER_PO", "B-VENDOR_NAME", "I-VENDOR_NAME",
@@ -170,9 +170,9 @@ class HFSREIO2019Dataset(object):
 
 if __name__ == '__main__':
     # Update with paths to your local files
-    train_file = "./test.txt"
-    val_file = "./valid.txt"
-    test_file = "./test.txt"
+    train_file = "./version1/test.txt"
+    val_file = "./version1/valid.txt"
+    test_file = "./version1/test.txt"
 
     dataset = HFSREIO2019Dataset(train_file, val_file, test_file).dataset
 

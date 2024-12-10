@@ -46,12 +46,12 @@ def compute_metrics(p, label_list):
 
 
 if __name__ == "__main__":
-    train_file = "path/to/train.txt"
-    val_file = "path/to/valid.txt"
-    test_file = "path/to/test.txt"
+    train_file = "./version1/train.txt"
+    val_file = "./version1/valid.txt"
+    test_file = "./version1/test.txt"
 
     model_n_version = "sroie2019v1"
-    max_epochs = 50
+    max_epochs = 100
     learning_rate = 2e-5
     batch_size = 16
     model_root_dir = "~/.mozhi/models/hf/"

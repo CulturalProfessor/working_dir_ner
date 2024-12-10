@@ -46,9 +46,9 @@ class HFTokenizer(object):
 if __name__ == '__main__':
     hf_pretrained_tokenizer_checkpoint = "distilbert-base-uncased"
 
-    train_file = "./test.txt"
-    val_file = "./valid.txt"
-    test_file = "./test.txt"
+    train_file = "./version1/test.txt"
+    val_file = "./version1/valid.txt"
+    test_file = "./version1/test.txt"
 
     # Initialize dataset with the file paths
     dataset = HFSREIO2019Dataset(

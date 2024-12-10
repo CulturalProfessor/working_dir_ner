@@ -170,7 +170,7 @@ class HFSREIO2019Dataset(object):
 
 if __name__ == '__main__':
     # Update with paths to your local files
-    train_file = "./version1/test.txt"
+    train_file = "./version1/train.txt"
     val_file = "./version1/valid.txt"
     test_file = "./version1/test.txt"
 

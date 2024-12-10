@@ -46,7 +46,7 @@ class HFTokenizer(object):
 if __name__ == '__main__':
     hf_pretrained_tokenizer_checkpoint = "distilbert-base-uncased"
 
-    train_file = "./version1/test.txt"
+    train_file = "./version1/train.txt"
     val_file = "./version1/valid.txt"
     test_file = "./version1/test.txt"
 
